@@ -6,21 +6,86 @@
 /// Program decides which animal's stat total is higher, and displays the winner
 /// Program says how the enviroment effects the calculation
 
-
-
 import java.util.*;
 
 import java.text.DecimalFormat;
 
-class Main {
-  String[] Animals = { "Bears", "bigBirds", "bigMammals", "bugs", "crustaceans", "farm", "lilBirds", "lilMammals",
-      "middleMammels", "pets", "reptiles" };
+//System.out.println("Welcome to DGR MAD Animal Competition!!!");
 
-  static void main (String[]args){
-       var = new Animals[]{
-         var = new Bears("bears")};
-      System.out.println("Hello world!");
-      }
-          
-       
-  }
+
+class Main {
+  String[] Animals = { "bears", "bigBirds", "bigMammals", "bugs", "crustaceans", "farm", "lilBirds", "lilMammals",
+      "middleMammals", "pets", "reptiles" };
+
+  public static void main (String[]args){
+      //var animals = new Animals[]{
+      
+        //var Bears = new Bears("bears");
+      // Welcome message
+      System.out.println("Welcome to the DGR MAD Animal Competition!!!"); 
+      System.out.println("What are your favourite animals?");
+      System.out.println("Pick an animal group");
+      // Animal groups
+      System.out.println("1. bears");
+      System.out.println("2. large Birds");
+      System.out.println("3. large Mammals");
+      System.out.println("4. bugs");
+      System.out.println("5. crustaceans");
+      System.out.println("6. farm Animals");
+      System.out.println("7. middle Mammals");
+      System.out.println("8. small birds");
+      System.out.println("9. small mammals");
+      System.out.println("10. pets");
+      System.out.println("11. reptiles");
+      //System.out.println("Select an animal");
+      
+      Scanner myObj = new Scanner(System.in);  // Scanner object
+      System.out.println("");
+
+      int num1=1;       
+      boolean b1=true;  
+      
+  
+
+      String userAnswer = myObj.nextLine();  // Read user input
+      System.out.println("Select an animal");  // Output user input
+      //if ()
+      //System.out.println("Lion");
+      System.out.println("polarBear, grizzlyBear, panda");
+      myObj.nextLine();
+      System.out.println("Select another animal group"); // The second animal
+    };
+
+      
+    
+      
+         
+     // int input1 = 1; 
+     //     String[] bears = {"polarBear", "grizzlyBear", "panda"};
+     //System.out.println("polarBear, grizzlyBear, panda");
+
+
+   //   String[] bear = {"polar", "grizzly", "panda"};
+//System.out.println(bear[0]);
+      ////System.out.println(bear.length);
+
+
+
+    
+     // int input2 = 2;
+     //     System.out.println("eagle, falcon");
+    
+     // int input3 = 3;
+      //    System.out.println("lion, wolf, horse, bison, coyote, moose, caribou");
+            
+
+  
+        
+     // int a= sc.nextInt();
+   // if (userAnswer == "1") {
+    //  System.out.println(bears.statistics);
+  //  }
+    
+    }     
+ // }
+
