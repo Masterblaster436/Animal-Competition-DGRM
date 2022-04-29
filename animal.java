@@ -1,7 +1,7 @@
-public abstract class animals {
+public abstract class Animal {
   //public abstract int statistics();
   
-  //public abstract String species();
+  public abstract String species();
 //%s
  // The animals intelligence
   
@@ -45,8 +45,15 @@ public abstract class animals {
     return this.Resolve;
   }
   
-  protected int Total = 0;
+  
   public int getTotalLevel(){
-    return this.Total;
+    return (this.Intel + this.Power + this.Defense + this.Mobility + this.Stealth +      this.Stamina + this.Intimidation + this.Resolve);
   }
+
+
+
+  
+   // var beartotal = new Beartotal();
+  
+
 }

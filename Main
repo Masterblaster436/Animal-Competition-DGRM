@@ -7,3 +7,113 @@ import java.text.DecimalFormat;
 //Program affects animal total depeding on environment
 //Program will do calculation to find a winner
 //Program displays winner
+
+import java.util.*;
+
+import java.util.Scanner;
+
+import java.text.DecimalFormat;
+
+public class Main {
+	public static void main(String[] args) {
+    for (int num = 2; num < 4; num++) {
+  	System.out.println("Welcome to DGR MAD Animal Competition");
+      System.out.println("Player choose your animal!");
+      System.out.println("  ");
+      Scanner input = new Scanner(System.in);
+      
+                  var bear = new Bear();
+                  var cat = new Cat();
+                  var crab = new Crab();
+                  var eagle = new Eagle();
+                  var monkey = new Monkey();
+                  var pig = new Pig();
+                  var tarantula = new Tarantula();
+                  var rattlesnake = new Rattlesnake();
+                  var robin = new Robin();
+                  var wolf = new Wolf();
+                  
+                  var animals = new ArrayList<Animal>();
+                  animals.add(bear);
+                  animals.add(cat);
+                  animals.add(crab);
+                  animals.add(eagle);
+                  animals.add(monkey);
+                  animals.add(pig);
+                  animals.add(tarantula);
+                  animals.add(rattlesnake);
+                  animals.add(robin);
+                  animals.add(wolf);
+  
+                  //int i = 0;
+                  int n = animals.size();
+                  for(int i = 0; i < n; i++) {
+                    var animal = animals.get(i);
+                      
+                  System.out.println(String.format("%d. %s", i, animal.species()));
+                    }
+  
+  
+        int response = input.nextInt();
+        if (response == 0){
+        System.out.println("You selected Bear");
+          }
+      
+  	    //int response = input.nextInt();
+        if (response == 1){
+        System.out.println("You selected Cat");
+        }
+          
+        //int response = input.nextInt();
+        if (response == 2){
+        System.out.println("You selected Crab");
+        }
+      
+        //int response = input.nextInt();
+        if (response == 3){
+        System.out.println("You selected Eagle");
+        }
+      
+        //int response = input.nextInt();
+        if (response == 4){
+        System.out.println("You selected Monkey");
+        }
+  
+        //int response = input.nextInt();
+        if (response == 5){
+        System.out.println("You selected Pig");
+        }
+  
+        //int response = input.nextInt();
+        if (response == 6){
+        System.out.println("You selected Tarantula");
+        }
+  
+        //int response = input.nextInt();
+        if (response == 7){
+        System.out.println("You selected Rattlesnake");
+        }
+        
+        //int response = input.nextInt();
+        if (response == 8){
+        System.out.println("You selected Robin");
+        }
+  
+        //int response = input.nextInt();
+        if (response == 9){
+        System.out.println("You selected Wolf");
+        }
+
+
+        
+
+
+
+
+
+
+
+      
+      }
+    }
+  }
