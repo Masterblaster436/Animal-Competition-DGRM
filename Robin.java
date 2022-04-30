@@ -12,5 +12,8 @@ public void robinStealth(){this.Stealth = 7;}
 public void robinStamina(){this.Stamina = 8;}
 public void robinIntimidation(){this.Intimidation = 1;}
 public void robinResolve(){this.Resolve = 1;}
-
+// total stat is 44
+public int getTotalLevelRobin(){
+  return (this.Intel + this.Power + this.Defense + this.Mobility + this.Stealth +      this.Stamina + this.Intimidation + this.Resolve);
+  }
 }  

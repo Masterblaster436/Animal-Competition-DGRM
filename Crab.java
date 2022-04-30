@@ -12,5 +12,7 @@ public void crabStealth(){this.Stealth = 6;}
 public void crabStamina(){this.Stamina = 10;}
 public void crabIntimidation(){this.Intimidation = 3;}
 public void crabResolve(){this.Resolve = 10;}
-
+public int getTotalLevelCrab(){
+  return (this.Intel + this.Power + this.Defense + this.Mobility + this.Stealth +      this.Stamina + this.Intimidation + this.Resolve);
+  }
 }

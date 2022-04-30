@@ -12,5 +12,7 @@ public void catStealth(){this.Stealth = 7;}
 public void catStamina(){this.Stamina = 6;}
 public void catIntimidation(){this.Intimidation = 4;}
 public void catResolve(){this.Resolve = 8;}
-
+public int getTotalLevelCat(){
+  return (this.Intel + this.Power + this.Defense + this.Mobility + this.Stealth +      this.Stamina + this.Intimidation + this.Resolve);
+  }
 }  

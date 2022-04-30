@@ -12,5 +12,8 @@ public void rattlesnakeStealth(){this.Stealth = 6;}
 public void rattlesnakeStamina(){this.Stamina = 10;}
 public void rattlesnakeIntimidation(){this.Intimidation = 5;}
 public void rattlesnakeResolve(){this.Resolve = 5;}
-
+//total 
+public int getTotalLevelRattlesnake(){
+  return (this.Intel + this.Power + this.Defense + this.Mobility + this.Stealth +      this.Stamina + this.Intimidation + this.Resolve);
+  }
 }  

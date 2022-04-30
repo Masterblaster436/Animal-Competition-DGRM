@@ -12,5 +12,8 @@ public void pigStealth(){this.Stealth = 3;}
 public void pigStamina(){this.Stamina = 7;}
 public void pigIntimidation(){this.Intimidation = 5;}
 public void pigResolve(){this.Resolve = 5;}
-
+// total stat 47
+public int getTotalLevelPig(){
+  return (this.Intel + this.Power + this.Defense + this.Mobility + this.Stealth +      this.Stamina + this.Intimidation + this.Resolve);
+  }
 }

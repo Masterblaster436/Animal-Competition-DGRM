@@ -12,6 +12,8 @@ public void eagleStealth(){this.Stealth = 4;}
 public void eagleStamina(){this.Stamina = 10;}
 public void eagleIntimidation(){this.Intimidation = 5;}
 public void eagleResolve(){this.Resolve = 3;}
-
+public int getTotalLevelEagle(){
+  return (this.Intel + this.Power + this.Defense + this.Mobility + this.Stealth +      this.Stamina + this.Intimidation + this.Resolve);
+  }
   }
   

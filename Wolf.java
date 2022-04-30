@@ -13,4 +13,7 @@ public void wolfStamina(){this.Stamina = 7;}
 public void wolfIntimidation(){this.Intimidation = 8;}
 public void wolfResolve(){this.Resolve = 8;}
 ////////./////public void wolfTotal(){this.Total=52;}
+public int getTotalLevelWolf(){
+  return (this.Intel + this.Power + this.Defense + this.Mobility + this.Stealth +      this.Stamina + this.Intimidation + this.Resolve);
+  }
 }  

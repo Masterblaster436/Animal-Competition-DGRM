@@ -11,7 +11,7 @@ public void bearsStealth(){this.Stealth = 3;}
 public void bearsStamina(){this.Stamina = 6;}
 public void bearsIntimidation(){this.Intimidation = 8;}
 public void bearsResolve(){this.Resolve = 8;}
-public int getTotalLevelBears(){
+public int getTotalLevelBear(){
   return (this.Intel + this.Power + this.Defense + this.Mobility + this.Stealth +      this.Stamina + this.Intimidation + this.Resolve);
   }
 
